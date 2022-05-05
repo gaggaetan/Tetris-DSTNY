@@ -31,10 +31,10 @@ function setup() {
   createCanvas(blockSize*lengthNumberCase, blockSize*heightNumberCase);
   blocks.push(new Cube());
   frameRate(frame)
-  imgGameOver = loadImage("gameOver.png")
-  imgheart = loadImage("heart.png")
+  imgGameOver = loadImage("assets/gameOver.png")
+  imgheart = loadImage("assets/heart.png")
   
-  button = createImg("play.png","")
+  button = createImg("assets/play.png","")
   
   button.position(120,150)
   button.size(200,200)

@@ -1,5 +1,5 @@
 function restartButton() {
-  let button = createImg("reload icon.png","")
+  let button = createImg("assets/reload icon.png","")
   button.position(400,0)
   button.size(40,40)
   button.mousePressed(restart, draw)
@@ -23,6 +23,6 @@ function restart (){
   createCanvas(blockSize*lengthNumberCase, blockSize*heightNumberCase);
   blocks.push(new Cube());
   frameRate(frame)
-  imgGameOver = loadImage("gameOver.png") 
+  imgGameOver = loadImage("assets/gameOver.png") 
   
 }
